@@ -1,0 +1,496 @@
+@font-face {
+    font-family: 'TimesRoman';
+    src: url('../font/timr45w-webfont.eot');
+    src: url('../font/timr45w-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/timr45w-webfont.woff') format('woff'),
+         url('../font/timr45w-webfont.ttf') format('truetype'),
+         url('../font/timr45w-webfont.svg#TimesRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'VerdanaRegular';
+    src: url('../font/verdana-webfont.eot');
+    src: url('../font/verdana-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/verdana-webfont.woff') format('woff'),
+         url('../font/verdana-webfont.ttf') format('truetype'),
+         url('../font/verdana-webfont.svg#') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#404041;
+}
+h1, h2{
+color:#fff;
+margin:0;
+padding:0;
+font-weight:normal;
+}
+p{
+line-height:20px;
+}
+.DWTemplate{
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+}
+.clr{
+	clear:both;
+}
+.header .logo{
+float:left;
+padding:10px 0;
+}
+.header .logo a{
+display:block;
+background:url(../images/logo.png) no-repeat;
+width:200px;
+height:134px;
+}
+.navigation{
+float:right;
+padding:100px 0 0 120px;
+}
+.navigation ul{
+padding:0;
+margin:0;
+}
+.navigation ul li{
+list-style:none;
+float:left;
+padding:12px 15px;
+}
+.navigation ul li a{
+text-decoration:none;
+font-size:27px;
+text-transform:lowercase;
+color:#910507;
+font-family:TimesRoman;
+}
+.navigation ul li:hover,
+.navigation ul li.active{
+background:url(../images/active-menu.png) center bottom no-repeat;
+}
+.MainBanner{
+background:url(../images/header-bg.png) repeat-x;
+height:auto;
+}
+.banner{
+background:url(../images/banner.png) no-repeat;
+height:300px;
+padding-top:34px;
+}
+.BannerTop{
+font-size:34px;
+}
+.BannerMiddle{
+font-size:56px;
+}
+.BannerLast{
+color:#000000 !important;
+font-style:italic;
+font-size:22px;
+}
+div.LastText{
+color: #FFFFFF;
+display: block;
+font-size: 18px;
+font-weight: bold;
+padding:80px 0 0 16px;
+width: 258px;
+}
+div.LastText span{
+font-size:14px;
+font-weight:normal;
+}
+
+.DWTemplate .DWBody{
+margin-top:30px;
+}
+.HeaderTitle{
+background:url(../images/about-us.png) no-repeat;
+height:315px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+.HeaderTitle h2{
+background: #721b1b;
+border-radius: 0 0 5px 5px;
+color: #FFFFFF;
+font-size: 32px;
+font-weight: normal;
+margin: 272px 0 0;
+opacity: 0.9;
+padding: 3px 15px;
+}
+.BodyLeft{
+float:left;
+width:480px;
+}
+.BodyRight{
+float:left;
+width:480px;
+padding-left:40px;
+}
+.AboutText{
+padding-top:15px;
+line-height:20px;
+}
+.AboutText span{
+font-weight:bold;
+}
+.ReadMore{
+background: url("../images/read-more.png") no-repeat scroll 0 0 transparent;
+float: right;
+margin: 40px 0 0;
+padding: 4px;
+text-indent: -9999px;
+width: 76px;
+}
+.MarketSolution{
+border:1px solid #ccc;
+padding:10px 14px;
+margin-bottom:40px;
+}
+.MarketSolution h2{
+color:#6e0304;
+font-weight:normal;
+font-size:24px;
+margin:0;
+padding:0;
+}
+.MarktingList{
+width:290px;
+float:left;
+}
+.MarktingList ul{
+margin:0;
+padding:0 0 0 14px;
+}
+.MarktingList ul li{
+width:136px;
+float:left;
+}
+.MarketReadMore{
+float:right;
+width:100px;
+}
+.MarketReadMore a{
+margin-top:18px;
+}
+.NText{
+float:left;
+width:240px;
+}
+.SNtext{
+width:200px;
+font-size:20px;
+float:left;
+padding-left:10px;
+}
+.SNtext .ReadMore{
+margin-top:96px;
+}
+/* Footer Start */
+.FooterBG{
+background:url(../images/footer-bg.png) repeat-x;
+height:66px;
+margin-top:20px;
+padding-top:15px;
+}
+.FooterNav{
+float:left;
+width:600px;
+}
+.FooterNav ul{
+padding:0;
+margin:0;
+}
+.FooterNav ul li{
+list-style:none;
+float:left;
+border-right:1px solid;
+padding:0 12px;
+}
+.FooterNav ul li#LastItem{
+border-right:none;
+}
+.FooterNav ul li a{
+text-decoration:none;
+color:#404041;
+}
+.CopyRight{
+float:right;
+width:340px;
+}
+
+/* ########### About Us Page ############# */
+.InnerTitle{
+font-size:56px;
+padding:25px 0;
+}
+.InnerPage h2{
+color:#8e0506;
+font-size:24px;
+padding-bottom:12px;
+}
+.OurServices h2, 
+.OurVissionValue h2, 
+.OurMission h2, 
+.CorporateSocialR h2{
+color:#8E0506;
+font-size:20px;
+}
+.OurVission, .OurValue{
+border:1px solid #ccc;
+width:190px;
+padding:90px 12px 0;
+min-height:150px;
+margin-bottom:35px;
+}
+.OurVission{
+background:url(../images/eye.png) center 12px no-repeat;
+float:left;
+}
+.OurValue{
+background:url(../images/corporate.png) center 12px no-repeat;
+float:right;
+margin-left:20px;
+}
+.OurMission{
+border:1px solid #ccc;
+padding:12px 15px;
+background:url(../images/grees.png) no-repeat 300px 40px;
+}
+.OurMission p{
+width:250px;
+}
+.SiteLinkDA a, .SiteLinkContactUsToday a, .SiteLinkOurServices a{
+text-indent:-9999px;
+display:block;
+padding:5px 8px;
+margin-top:40px;
+}
+.SiteLinkOurServices a{
+background:url(../images/see_our_ser.png) no-repeat;
+margin-top: 25px;
+}
+.SiteLinkDA a{
+background:url(../images/da_ser.png) no-repeat;
+}
+.SiteLinkContactUsToday a{
+background:url(../images/contact_us_today.png) no-repeat;
+}
+/* ########### Services Page ############# */
+.ServiceOne, .ServiceTwo, .ServiceThree{
+width:303px;
+height:auto;
+float:left;
+}
+.ServiceTop{
+background:url(../images/service-top.png) no-repeat;
+width:303px;
+height:25px;
+}
+.ServiceBottom{
+background:url(../images/services-bottom.png) no-repeat;
+width:303px;
+height:30px;
+}
+
+.ServiceMiddle{
+background: url("../images/services-middle.png") repeat-y scroll 0 0 transparent;
+padding: 0 20px;
+width: 264px;
+}
+.ServiceMiddle p{
+margin:0;
+}
+.ServiceMiddle h2{
+padding-bottom:15px;
+}
+.PublicService img{
+float:right;
+margin:0 0 12px 12px ;
+}
+.ServiceTwo{
+padding-left:40px;
+margin-top:-50px;
+}
+ul.MarketUL, ul.MarketULS{
+float: left;
+margin: 0;
+padding: 20px 0 0 10px;
+
+}
+ul.MarketUL{
+width: 100px;
+}
+ul.MarketULS{
+width:140px;
+}
+ul.MarketUL li, 
+ul.MarketULS li{
+padding:3px 0;
+}
+.ServiceThree{
+margin-top:-100px;
+padding-left:40px;
+}
+.ServiceThree ul{
+margin: 0;
+padding: 20px 0 0 14px;
+}
+.ServiceThree ul li{
+padding:3px 0;
+}
+/*############ Nigeria ###########*/
+.NigeriaText span{
+font-weight:bold;
+}
+.NigeriaBody{
+background:url(../images/nigeria-flag.png) 600px 8px no-repeat;
+}
+.NigeriaText{
+width:475px;
+}
+.CorporateSocialR{
+border:1px solid #ccc;
+padding:12px 15px;
+width:445px;
+margin:20px 0;
+}
+/* ############# Start Careers Page ######## */
+.CareersPage{
+}
+.CareerText{
+width:490px;
+float:left;
+}
+.CareerText h2, .CareerContact h2, .ContactForm h2, .ContactMiddle h2{
+color:#8E0506;
+font-size:24px;
+}
+.CareerContact{
+float:right;
+width:450px;
+border:1px solid #ccc;
+padding:12px 15px;
+}
+.CareerBG{
+background: url("../images/careers-bg.png") no-repeat scroll 0 bottom transparent;
+height: 466px;
+margin-bottom: -20px;
+}
+.CareerContact p{
+font-size:16px;
+}
+.CareerContact p span{
+font-size:18px;
+}
+.CareerContact p a{
+text-decoration:none;
+color:#404041;
+}
+/* ################ Start Contact Page ############ */
+h2.SmallDes{
+margin-top:-20px;
+padding-bottom:30px;
+color:#000;
+font-size:28px;
+font-style:italic;
+}
+.ContactForm{
+width:577px;
+float:left;
+}
+.ContactTextForm{
+font-size:14px;
+}
+.ContactTextForm span{
+font-style:italic;
+}
+span.require{
+color:#8E0506;
+}
+#cname, #cemail{
+background:url(../images/input-field.png) no-repeat;
+border:none;
+padding:13px;
+}
+#commentForm{
+font-size:14px;
+}
+.CPhone{
+float:left;
+}
+.CEmail{
+float:left;
+padding-left:20px;
+}
+.FromField{
+padding:5px 0;
+}
+#ccomment{
+background: url("../images/comment.png") no-repeat scroll 0 0 transparent;
+border: medium none;
+padding: 8px 10px;
+}
+#FromSubmit{
+background:url(../images/send-message.png) no-repeat;
+width:180px;
+height:45px;
+border:none;
+text-indent:-9999px;
+}
+.error{
+color: #FF0000;
+}
+.ContactMap{
+float: right;
+margin-top: -100px;
+width: 380px;
+}
+.ContactTop{
+background:url(../images/contact-top.png) no-repeat;
+width:377px;
+height:16px;
+}
+.ContactMiddle{
+background: url("../images/contact-bg.png") repeat-y scroll 0 0 transparent;
+padding: 0 12px;
+width: 352px;
+}
+.ContactBottom{
+background:url(../images/contact-bottom.png) no-repeat;
+width:377px;
+height:24px;
+}
+.ContactMiddle p{
+padding:5px 0;
+margin:0;
+font-size:14px;
+}
+.ContactMiddle span{
+color:#8E0506;
+font-size:16px;
+}
+.ContactMiddle a{
+text-decoration:none;
+color:#404041;
+}
+.ContactMiddle a:hover{
+text-decoration:underline;
+color:#8E0506;
+}
+.ContactMiddle h2{
+padding:15px 0;
+}
